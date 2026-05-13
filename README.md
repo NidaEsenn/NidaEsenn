@@ -17,137 +17,33 @@
 </p>
 
 ---
-
-## 🧠 About Me  
-
-I build **end-to-end AI systems — not just models.**
-
-My work spans perception pipelines, generative modeling, LLM-integrated architectures, and multi-agent orchestration frameworks.  
-I focus on designing systems that are scalable, controllable, and production-ready.
-
-I am particularly interested in:
-
-• Perception systems for real-world environments  
-• Synthetic data generation for safety-critical training  
-• Multi-agent orchestration and tool-driven LLM systems  
-• Model optimization and evaluation under deployment constraints  
-
-I approach AI as a systems engineering discipline — combining modeling, infrastructure, evaluation, and deployment.
-
+MS AI student at Northeastern (Silicon Valley).I build things, break them, then make them work in production. I build end-to-end AI systems like perception pipelines, generative models, and semantic retrieval from research to deployment.
+ 
+Previously built real-time CV systems for autonomous vehicles at Renault Group. Now focused on multimodal AI and generative&agentic systems.
+ 
 ---
-
-## 🚀 Featured Projects  
-
-### 🚗 CrashGen — Synthetic Crash Scenario Generation  
-`Python` `PyTorch` `Stable Diffusion XL` `LoRA` `CLIP` `YOLOv8`
-
-- Built an end-to-end pipeline converting unstructured crash reports into structured scene representations  
-- Designed LLM-based scene parser extracting environmental and vehicle dynamics  
-- Generated synthetic crash imagery for autonomous perception training  
-- Implemented multi-metric evaluation suite (semantic alignment + object verification)  
-- Achieved 0.30 CLIP alignment and 94% temporal consistency  
-
-**Focus:** Generative AI for safety-critical system training
-
----
-
-### 🤖 Multi-Agent Orchestration Framework  
-`Python` `LLMs` `LangChain` `Tool Routing` `Memory Systems`
-
-- Designed role-based multi-agent architecture (planner, executor, verifier)  
-- Implemented task decomposition and tool-aware execution pipelines  
-- Integrated persistent memory and structured reasoning flows  
-- Built controllable orchestration beyond single-prompt LLM usage  
-
-**Focus:** Reliable agentic system design
-
----
-
-### 🎬 CineMatch — Production Group Recommendation Engine  
-`Python` `Collaborative Filtering` `Backend Deployment`
-
-- Designed group-aware recommendation algorithm  
-- Implemented dynamic preference aggregation for multi-user environments  
-- Built scalable backend supporting real-time updates  
-- Deployed production-ready system  
-
-**Focus:** ML system deployment & real-world scalability
-
----
-
-### 🚗 ADAS Perception System — Industry Collaboration  
+ 
+## Things I've built
+ 
+**[VisualMind AI](https://github.com/NidaEsenn/visualmind-ai)** — Designers save hundreds of screenshots and UI references — then can never find them again. Built a search engine for your own visual memory. Type *"dark SaaS dashboard"* or *"fintech onboarding"* and it finds what you saved, ranked by relevance, in under 400ms. No manual tagging. No folders. Just search.
+`CLIP` `Qdrant` `Gemini` `FastAPI` `React` `Docker`
+ 
+**[CineMatch](https://cine-match-omega.vercel.app/)** — Built this because my friends and I could never agree on what to watch. Group movie nights shouldn't end in a 30-minute negotiation. Recommends films that actually work for everyone — not just the loudest person in the room. Online learning from swipe signals, no retraining needed. Inference cost: $30 → $0.20/month. [Live →](https://cine-match-omega.vercel.app/)
+`Sentence Transformers` `ChromaDB` `FastAPI` `Groq LLaMA`
+ 
+**[AgentHub](https://github.com/NidaEsenn/agenthub)** — AI agents are everywhere, but getting agents from different developers to work together safely is still a mess. Built a governed collaboration network where agents can discover each other, delegate tasks, and interact through a policy engine — rate limiting, permission scoping, data classification, audit trail. Register an agent in 5 lines with the Python SDK.
+`FastAPI` `PostgreSQL` `Redis` `Python SDK` `Docker`
+ 
+**CrashGen** — Autonomous vehicles need to learn from dangerous situations — but real crash data is rare, expensive, and ethically complicated to collect. Built a pipeline that converts unstructured crash reports into synthetic training images. -in progress
+`Stable Diffusion XL` `LoRA` `CLIP` `YOLOv8` `PyTorch`
+ 
+**ADAS Perception @ Renault** — Real-time object detection + lane segmentation on NVIDIA Jetson, built as part of a university-industry research collaboration with Renault Group purpose of developing autonomous car. 92% mAP, 40% latency reduction with TensorRT. Camera–LiDAR fusion pipeline on a 15K+ frame annotated dataset.
 `YOLOv8` `TensorRT` `OpenCV`
-
-- Developed real-time object detection & lane segmentation pipeline  
-- Optimized inference latency by 40% on edge hardware  
-- Built 15K+ annotated dataset  
-- Designed camera-LiDAR early fusion module  
-
-**Focus:** Real-time perception & optimization
-
+ 
 ---
-
-## 🔬 Current Engineering Focus  
-
-- Multi-agent reliability & orchestration design  
-- Synthetic data generation pipelines  
-- Model evaluation frameworks for safety-critical AI  
-- Edge optimization & inference acceleration  
-- Systems-level integration of LLMs  
-
+ 
+## Stack
+ 
+Python · PyTorch · CLIP · Hugging Face · Stable Diffusion · LangChain · Qdrant · ChromaDB · FastAPI · PostgreSQL · Docker · CUDA · OpenCV · YOLOv8 · TensorRT
+ 
 ---
-
-## 🧰 Technical Stack  
-
-### Programming  
-Python · SQL · JavaScript  
-
-### Machine Learning & Deep Learning  
-PyTorch · TensorFlow · scikit-learn · Hugging Face Transformers  
-Model Evaluation (mAP, F1, CLIP, Confusion Matrix Analysis)
-
-### Generative AI & LLM Systems  
-Diffusion Models (SDXL) · LoRA Fine-Tuning  
-RAG Architectures · Vector Search (FAISS)  
-Prompt Engineering · Tool Calling · LLM Orchestration  
-
-### Multi-Agent & System Design  
-LangChain · Task Decomposition  
-Tool Routing · Memory Systems  
-Role-Based Agent Architectures  
-
-### Perception & Edge Optimization  
-YOLOv8 · OpenCV  
-TensorRT · ONNX  
-Real-Time Inference Optimization  
-
-### Backend & Infrastructure  
-FastAPI · Docker · REST APIs  
-MLflow · Experiment Tracking  
-Git · Linux  
-
-### Deployment & System Thinking  
-Edge Deployment · Latency Optimization  
-Metric-Driven Evaluation Pipelines  
-Production-Oriented Model Integration  
----
-
-## 📬 Let's Connect  
-
-<p align="center">
-  <a href="mailto:nidaesenn17@gmail.com">
-    <img src="https://img.shields.io/badge/Email-nidaesenn17@gmail.com-red?style=flat&logo=gmail" />
-  </a>
-  <a href="https://www.linkedin.com/in/nida-esen-b42a63198/">
-    <img src="https://img.shields.io/badge/LinkedIn-Nida%20Esen-blue?style=flat&logo=linkedin" />
-  </a>
-  <a href="https://github.com/NidaEsenn">
-    <img src="https://img.shields.io/badge/GitHub-NidaEsenn-black?style=flat&logo=github" />
-  </a>
-</p>
-
----
-
-<p align="center">
-I build AI systems that are not only intelligent — but reliable, controllable, and deployable.
-</p>
